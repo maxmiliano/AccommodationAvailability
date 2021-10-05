@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.2 [study]" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.28, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.2.0, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.2.1, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.2.0, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.2.1, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.2.2, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sequel (v4.20.0, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.4.2, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sqlite3-ruby (v1.3.3, RVM: ruby-3.0.2 [study]) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl id="db">
+            <subtasks>
+              <RakeTaskImpl description="Run sequel migrations" fullCommand="db:migrate" id="migrate" />
+            </subtasks>
+          </RakeTaskImpl>
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+</module>
