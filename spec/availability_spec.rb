@@ -39,7 +39,10 @@ describe Availability do
                               Date.new(2015, 7, 15),
                               Date.new(2015, 7, 19)) }
 
-    it { is_expected.to be_available_between(
+    # As we don't have any information about 2016 availability,
+    # we'll assume it's unavailable. So this test should be
+    # expected to not be available
+    it { is_expected.to_not be_available_between(
                           Date.new(2015, 12, 24),
                           Date.new(2016, 1, 2)) }
 

@@ -1,4 +1,5 @@
 require 'sequel'
+require 'pathname'
 
 namespace :db do
   desc "Run sequel migrations"
